@@ -1,0 +1,14 @@
+kore/
+│
+├── index.html          # Main webpage file
+├── styles.css          # CSS styling
+├── script.js           # JavaScript for interactivity
+├── README.md           # Project documentation
+├── .gitignore          # (Optional) Files Git should ignore
+└── assets/             # Images, icons, logos, etc.
+    ├── logo.png
+    └── products/
+        ├── mic.jpg
+        ├── camera.jpg
+        ├── light.jpg
+        └── capture-card.jpg
