@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kore. - Streaming Equipment</title>
+    <style>
+        /* Basic styling for demo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #121212;
+            color: #f0f0f0;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #00adef;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: #00adef;
+        }
+        nav a {
+            color: #f0f0f0;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #00adef;
+        }
+        main {
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .product-card {
+            background-color: #222;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px #00adef44;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card img {
+            max-width: 100%;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        .product-name {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .product-price {
+            font-weight: bold;
+            color: #00adef;
+            margin-bottom: 15px;
+        }
+        .buy-button {
+            background-color: #00adef;
+            border: none;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            text-decoration: none;
+        }
+        .buy-button:hover {
+            background-color: #0078a0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-top: 2px solid #00adef;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kore.</h1>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" style="text-align:center; margin-bottom: 50px;">
+            <h2>Top Quality Streaming Equipment for Creators</h2>
+            <p>Upgrade your streaming setup with Kore. — the best gear for every streamer.</p>
+        </section>
+
+        <section id="products">
+            <h2>Featured Products</h2>
+            <div class="products">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/250x150?text=Microphone" alt="Streaming Microphone" />
+                    <div class="product-name">Pro Streaming Microphone</div>
+                    <div class="product-price">$99.99</div>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/250x150?text=Camera" alt="Streaming Camera" />
+                    <div class="product-name">HD Streaming Camera</div>
+                    <div class="product-price">$249.99</div>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/250x150?text=Lighting" alt="Streaming Lighting" />
+                    <div class="product-name">Ring Light with Stand</div>
+                    <div class="product-price">$79.99</div>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/250x150?text=Capture+Card" alt="Capture Card" />
+                    <div class="product-name">4K Capture Card</div>
+                    <div class="product-price">$129.99</div>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" style="margin-top: 70px;">
+            <h2>About Kore.</h2>
+            <p>Kore. is dedicated to providing the highest quality streaming equipment to help creators build their dream setups. Whether you're just starting out or a pro streamer, we have the gear you need.</p>
+        </section>
+
+        <section id="contact" style="margin-top: 70px;">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out at <a href="mailto:support@korestream.com" style="color:#00adef;">support@korestream.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Kore. All rights reserved.
+    </footer>
+</body>
+</html>
